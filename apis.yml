@@ -1,23 +1,70 @@
 aid: kyten-technologies
 name: Kyten Technologies
-description: Kyten Technologies is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Kyten Technologies is a Seattle, Washington hardware manufacturing startup
+  building a factory to produce custom aerospace-grade battery packs. The founders spent
+  six years at Starlink, where they put more than 5,000 battery packs into space, and
+  are now bringing rapid development and volume production of aerospace-grade battery
+  packs to the wider industry. The company positions itself against a legacy supply
+  chain that cannot keep up with the 100,000+ drones, submarines, and satellites being
+  built in the United States. Kyten Technologies is a Y Combinator Winter 2026 company,
+  classified under Industrials / Manufacturing and Robotics, and was an early-stage
+  two-person team at the time of profiling. As a hardware manufacturer it publishes no
+  public API, developer portal, or machine-readable API artifacts; this profile is
+  maintained in the API Evangelist network as a company record.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bookface-images.s3.amazonaws.com/small_logos/966b1340bdeb6a7d80ba3f1c34c89a62f57a4bff.png
 url: https://raw.githubusercontent.com/api-evangelist/kyten-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: hardware-manufacturer-no-public-api
+x-yc-batch: Winter 2026
+x-location: Seattle, WA, USA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Hardware
+- Manufacturing
+- Aerospace
+- Batteries
+- Energy Storage
+- Robotics
+- Industrials
+- Drones
+- Satellites
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kyten-technologies-domain-security.yml
+- type: LLMsTxt
+  name: llms.txt for Kyten Technologies
+  url: llms/kyten-technologies-llms.txt
+- type: Website
+  url: https://kytentech.com
+- type: About
+  name: Y Combinator company profile
+  url: https://www.ycombinator.com/companies/kyten-technologies
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
