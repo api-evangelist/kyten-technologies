@@ -1,0 +1,27 @@
+# Kyten Technologies
+
+> Seattle-based hardware manufacturing startup building a factory for custom aerospace-grade battery packs. Founded by engineers who spent six years at Starlink putting 5,000+ battery packs into space, the company brings rapid development and volume production of aerospace-grade battery packs to drone, submarine, and satellite manufacturers. Y Combinator Winter 2026 (Industrials / Manufacturing and Robotics).
+
+Kyten Technologies is a hardware manufacturer. As of the 2026-07-19 profiling pass it publishes **no public API**, no developer portal, no documentation site, and no machine-readable API artifacts. There is no OpenAPI, AsyncAPI, MCP server, SDK, or CLI to consume. Agents should not expect a programmatic integration surface for this company.
+
+## Company
+
+- [Website](https://kytentech.com): Company website. Observed returning HTTP 402 (Vercel `DEPLOYMENT_DISABLED`) on 2026-07-19 — the deployment was offline at profiling time.
+- [Y Combinator company profile](https://www.ycombinator.com/companies/kyten-technologies): Public YC directory profile — batch, description, location, team size.
+
+## Facts
+
+- Batch: Y Combinator Winter 2026
+- Location: Seattle, WA, USA
+- Industry: Industrials -> Manufacturing and Robotics
+- Stage: Early (team size 2 at profiling)
+- Product: Custom aerospace-grade battery packs
+
+## Artifacts in this repo
+
+- [apis.yml](apis.yml): APIs.json 0.20 company record.
+- [security/kyten-technologies-domain-security.yml](security/kyten-technologies-domain-security.yml): Probed TLS/DNS posture for kytentech.com (TLSv1.3, no HSTS, no DNSSEC, CAA present, SPF + DMARC quarantine).
+
+## Absent by verification, not omission
+
+Probed on 2026-07-19 and confirmed absent: `/.well-known/security.txt`, `/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`, `/llms.txt`, `/docs`, `/api` (all HTTP 402). No GitHub organization (`kyten`, `kytentech` both 404). No packages on npm, PyPI, or crates.io. No vulnerability disclosure program or trust center found.
