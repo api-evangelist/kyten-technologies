@@ -11,6 +11,17 @@ description: 'Kyten Technologies is a Seattle, Washington hardware manufacturing
   two-person team at the time of profiling. As a hardware manufacturer it publishes no
   public API, developer portal, or machine-readable API artifacts; this profile is
   maintained in the API Evangelist network as a company record.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
